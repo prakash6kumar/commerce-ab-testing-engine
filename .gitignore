@@ -3,6 +3,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+.env
 
 # Generated data & local DB (reproducible via generate_data.py)
 data/raw/*
