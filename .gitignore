@@ -1,0 +1,17 @@
+# Python & environments
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Generated data & local DB (reproducible via generate_data.py)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.duckdb
+*.duckdb.wal
+
+# OS / Editor
+.DS_Store
+.vscode/
